@@ -6,7 +6,7 @@
  * If you were not already including this file in your project, please ignore it
  */
 
-$file = __DIR__ . '/../../vendor/autoload.php';
+$file = __DIR__ . '/../vendor/autoload.php';
 
 if (!file_exists($file)) {
   $exception = 'This library must be installed via composer or by downloading the full package.';
